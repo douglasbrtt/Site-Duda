@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Duda Fotografia</title>
+		<link rel="stylesheet" type="text/css" href="./style/style.css">
+		<link rel="stylesheet" href="./style/animacoes.css">
+		<link rel="stylesheet" href="./style/grid.css">
+		<script src="https://kit.fontawesome.com/64c7744051.js" crossorigin="anonymous"></script>
+
+		<script>document.documentElement.classList.add("js");</script>
+
+	</head>
+	<body>
+		<header class="header-bg">
+			<div class="container header">
+				<a href="#"><img src="./img/logo.PNG" alt="logo"></a>
+				<div class="menu">
+					<ul>
+						<li><a href="#sobre">Sobre</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#contato">Contato</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<section class="intro-bg" id="sobre">
+			<div data-anime="400" class="fadeInDown container intro">
+				<h2>Maria Eduarda Soares</h2>
+				<h5>Fotografa Profissional</h5>
+				<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado.</p>
+			</div>
+		</section>
+		<section class="portfolio" id="portfolio">
+			<div class="container fotos">
+				<h2 class="anime-2">Ensaios Internos</h2>
+				<div data-anime="1200" class=" interno anime-2">
+					<div class="grid-1-3 interno-1"></div>
+					<div class="grid-1-3 interno-2"></div>
+					<div class="grid-1-3 interno-3"></div>
+				</div>
+				<h2 class="anime-2">Ensaios Externos</h2>
+				<div class="externo anime-2">
+					<div class="grid-1-3 externo-1"></div>
+					<div class="grid-1-3 externo-2"></div>
+					<div class="grid-1-3 externo-3"></div>
+				</div>
+				<h2 class="anime-2">Ensaio Familia</h2>
+				<div class="familia anime-2">
+					<div class="grid-1-3 familiar-1"></div>
+					<div class="grid-1-3 familiar-2"></div>
+					<div class="grid-1-3 familiar-3"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contato-bg" id="contato">
+			<div class="contato-form">
+				<h2>Contato</h2>
+				<form>
+					<label for="nome">Nome:</label>
+					<input type="text" name="nome" required>
+					<label for="email">Email:</label>
+					<input type="email" name="email" required>
+					<label for="mensagem">Digite sua mensagem:</label>
+					<textarea name="mensagem" cols="30" rows="8"></textarea>
+					<button>Enviar</button>
+				</form>
+			</div>
+		</section>
+
+		<footer class="footer-bg">
+			<div class="container">
+				<div class="frase grid-8">
+					<h2>Missão</h2>
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, id maiores. Soluta illo maxime ullam iste et commodi, adipisci suscipit.</p>
+				</div>
+				<div class="contato grid-4">
+					<h2>Contato</h2>
+					<p>- +55(43)99999-9999</p>
+					<p>- dudasoares7@gmail.com</p>
+					<p>- Apucarana-PR</p>
+				</div>
+				<div class="redes-sociais grid-4">
+					<h2>Redes sociais</h2>
+					<a href="#"><i class="fab fa-facebook-f icone"></i></a>
+					<a href="#"><i class="fab fa-instagram icone"></i></a>
+				</div>
+			</div>
+		</footer>
+		<nav class="rodape-bg">
+			<div class="rodape">
+				<p>Duda Soares Fotografias 2021 - alguns direitos reservados.</p>
+			</div>
+		</nav>
+
+		<script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+		<script src="./js/simple-anime.js"></script>
+		<script type="text/javascript" src="./js/app.js"></script>
+
+	</body>
+</html>
